@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- esto era el título que aparece en la pestaña -->
+    <title>Mi página web</title>
+    <!-- esto el favicon, pequeña imagen en la pestaña -->
+    <!-- esto es lo estandar, la abreviatura me lo rellena -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- tambien lo puedo poner así -->
+
+    <link rel="icon" href="imagenes/perrito.jfif">
+
+    <!-- así conectamos nuestro html con un archivo css -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <h1>El nombre de mi web/titulo de mi página</h1>
+        <nav>
+            <a class="enlace-nav" href="#explicacion-html">Html</a>
+            <a class="enlace-nav" href="#explicacion-css">Css</a>
+            <a class="enlace-nav" href="#explicacion-js">Javascript</a>
+        </nav>
+        <hr>
+        <p>cambio en mi archivo</p>
+    </header>
+
+
+
+    <h2>Indice</h2>
+    <ul>
+        <li> <a href="#explicacion-html">Html</a> </li>
+        <li> <a href="#explicacion-css">Css</a> </li>
+        <li> <a href="#explicacion-js">Javascript</a></li>
+    </ul>
+
+    <hr>
+
+    <section id="etiquetas-basicas">
+        <h2>Etiquetas básicas</h2>
+        <h2>Esto es un título h2</h2>
+
+        <p>Esto es un cuerpo de texto. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis iusto
+            hic
+            explicabo quos nesciunt qui aliquid ad odit ex praesentium, fugit eveniet facere veniam nihil magni? Optio
+            mollitia voluptate dolorem.</p>
+
+
+        <strong>Esto es un texto en negrita</strong><br>
+        <em>Esto es un texto enfatizado con cursiva</em><br>
+        <a href="https://www.booking.com/" target="_blank">Pincha aquí</a><br>
+        <img height="100px"
+            src="https://2.bp.blogspot.com/-ldAbyujUy8M/V1emzJAWY0I/AAAAAAAAAuQ/F68N1ptNpJM2wb86ukf-onL-rzv2Z7paQCKgB/s1600/adorable-chaton-qui-a-sommeil.jpg"
+            alt="">
+
+        <!-- esto es un comentario,
+     no se renderiza en mi web, me sirve para dejar recordatorios o explicaciones -->
+
+        <!-- lista ordenada ol -->
+        <ol class="lista" id="lista1">
+            <li>Primer elemento</li>
+            <li>Segundo elemento</li>
+        </ol>
+        <ol class="lista" id="lista2">
+            <li>Primer elemento</li>
+            <li>Segundo elemento</li>
+        </ol>
+
+        <!-- lista  no ordenada ul -->
+        <ul class="lista">
+            <li>Primer elemento</li>
+            <li>Segundo elemento</li>
+        </ul>
+
+        <!-- imagen desde ruta local -->
+        <img src="imagenes/perrito.jfif" alt="perrito en el campo" height="200px">
+        <hr>
+    </section>
+
+    <article id="explicacion-html">
+        <h3>Explicacion html</h3>
+        <p id="texto-html">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, repudiandae dolor magni
+            laboriosam, libero sit
+            dolorum velit soluta cumque eius voluptatem, quod aperiam harum praesentium eveniet voluptatum nobis
+            aliquid.
+            Nobis earum quos eos, beatae deserunt quas iusto soluta sequi consequatur omnis. Ex ipsa facilis, reiciendis
+            magnam nulla tempora, harum totam, sed magni illo soluta possimus quos laborum qui culpa accusamus
+            voluptatem
+            optio voluptatum libero. Molestiae vel aliquam earum asperiores blanditiis nesciunt veritatis eveniet
+            laboriosam
+            harum iste. Temporibus quis ut, totam aspernatur quidem quisquam corrupti sunt distinctio, quibusdam minima
+            facere itaque error natus, debitis vero eaque at et! Libero, earum corrupti. <br>
+            Para escribir código sin instalar visual estudio <a href="https://codepen.io/pen/" target="_blank">pincha
+                aquí</a>
+        </p>
+        <hr>
+    </article>
+
+    <article id="explicacion-css">
+        <h3>Explicacion CSS</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio dicta nemo porro accusantium eaque?
+            <span style="color: black;">Voluptates</span>
+            quis minus eos veritatis ullam, illum qui odio? Beatae numquam repellendus maxime similique eligendi
+            voluptatum,
+            non nihil aut voluptatem, sit, magnam corporis pariatur? Iure vel quia animi repellendus doloribus ducimus
+            sunt
+            saepe sed? Provident animi repellendus deleniti perferendis consequatur. Voluptatem excepturi delectus
+            quaerat,
+            quae minima natus doloremque nesciunt optio expedita repudiandae illo voluptate nam ex, sed dolor molestiae
+            amet
+            sit esse vero ad blanditiis neque id laudantium? Recusandae ipsum, repellat quos sequi ab unde. Aperiam
+            illum
+            deserunt officiis quibusdam magni quo asperiores doloremque dolorem id.
+        </p>
+        <iframe style="border-radius:12px"
+            src="https://open.spotify.com/embed/track/5EkY4fbvYQIMrgeGWbnHt4?utm_source=generator&theme=0" width="100%"
+            height="152" frameBorder="0" allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <hr>
+    </article>
+
+    <article id="explicacion-js">
+        <h3>Explicacion Javascript</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/YfBE1D1qEmA?si=Nah4YKRhoR0GLs70"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias consectetur iure optio quis ex! Debitis
+            harum iure necessitatibus in ipsum eaque voluptatibus, voluptas, ab vero eum veniam? Esse, perferendis
+            consectetur!</p>
+        <hr>
+    </article>
+
+    <footer>
+        <p>Esto es el footer</p>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.5480176281667!2d-3.662489295795008!3d40.37454526461255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4225d57a9850f3%3A0x420e605fe1760b6!2sEMMA!5e0!3m2!1ses!2ses!4v1730715401621!5m2!1ses!2ses"
+            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <a href="mailto:roxanapj.92@gmail.com">Contacta conmigo</a>
+
+        <a href="tel:+34...">Llámame</a>
+        <a href="https://wa.me/34....">Escríbeme a Whatsapp</a>
+
+
+    </footer>
+
+
+</body>
+
+</html>

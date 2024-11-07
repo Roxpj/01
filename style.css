@@ -1,0 +1,41 @@
+/* selector de etiqueta */
+body {
+    background-color: rgb(211, 186, 234);
+    background-image: url("imagenes/perrito.jfif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+
+/* esto es un comentario */
+/* selector de clase */
+.enlace-nav{
+    color: chartreuse;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+/* selector de id */
+/* #nombreid{
+
+} */
+
+p {
+    color:brown;
+}
+
+#texto-html {
+    color:darkgreen;
+}
+
+.lista{
+    background-color: blue;
+}
+
+#lista1{
+    background-color: aqua;
+}
+
+footer {
+    background-color: cadetblue;
+}
